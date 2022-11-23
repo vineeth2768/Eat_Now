@@ -2,8 +2,12 @@
 
 import 'dart:developer';
 
+import 'package:eat_now/models/category_model.dart';
+import 'package:eat_now/models/models.dart';
 import 'package:eat_now/screens/cart/cart_screen.dart';
+import 'package:eat_now/screens/catelog/catelog.dart';
 import 'package:eat_now/screens/home/home_screen.dart';
+import 'package:eat_now/screens/product/product_screen.dart';
 import 'package:eat_now/screens/user/user_screen.dart';
 import 'package:eat_now/screens/wishlist/wishlist_screen.dart';
 
@@ -24,6 +28,10 @@ class AppRouter {
         return UserScreen.route();
       case WishListScreen.routeName:
         return WishListScreen.route();
+      case CateLogScreen.routeName:
+        return CateLogScreen.route(category: settings.arguments as Category);
+      case ProductScreen.routeName:
+        return ProductScreen.route(product: settings.arguments as Product);
 
       default:
         return _errorRoute();

@@ -41,7 +41,7 @@ class HomeScreen extends StatelessWidget {
             ),
           ),
 
-          //**********   Product Card  ************//
+          // **********   Product Card  ************ //
 
           const SectionTile(
             title: "RECOMMENDED",

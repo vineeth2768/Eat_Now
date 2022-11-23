@@ -52,7 +52,7 @@ class Product extends Equatable {
       imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTOey3T5WDTpKSDXPv-Sj-C9aBZi-V5Ig3lPA&usqp=CAU",
       category: "Soft Drinks",
-      price: 2.10,
+      price: 2.55,
       isRecommended: false,
       isPopular: true,
     ),
@@ -61,7 +61,7 @@ class Product extends Equatable {
       imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT8wiikWF9oJP_tbaH2qrLJOXxaxFwj0JCzZg&usqp=CAU",
       category: "Smoothies",
-      price: 4.50,
+      price: 3.99,
       isRecommended: true,
       isPopular: true,
     ),
@@ -70,7 +70,7 @@ class Product extends Equatable {
       imageUrl:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSXCUug2yPabV9ilQgthmMhKPRAopTNf-hgUQ&usqp=CAU",
       category: "Pizza",
-      price: 4.50,
+      price: 4.99,
       isRecommended: true,
       isPopular: true,
     ),
